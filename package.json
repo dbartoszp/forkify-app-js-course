@@ -1,0 +1,28 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbartoszp/js-forkify-app-course.git"
+  },
+  "author": "Bartosz Pomierny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbartoszp/js-forkify-app-course/issues"
+  },
+  "homepage": "https://github.com/dbartoszp/js-forkify-app-course#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
