@@ -58,6 +58,12 @@ const controlSearchResults = async function () {
   }
 };
 
+/**
+ * javadoc comment test
+ * controller function responsible for pagination
+ *
+ * @param {*} goToPage the page the user wants to go to
+ */
 const controlPagination = function (goToPage) {
   // 1) Render NEW results
   resultsView.render(model.getSearchResultsPage(goToPage));
@@ -112,6 +118,7 @@ const controlAddRecipe = async function (newRecipe) {
     window.history.pushState(null, '', `#${model.state.recipe.id}`);
 
     // close form window
+    //!BUG! After pressing ADD RECIPE twice in a row, the ADD RECIPE view does not toggle
     setTimeout(function () {
       addRecipeView.toggleWindow();
     }, MODAL_CLOSE_SEC * 1000);
