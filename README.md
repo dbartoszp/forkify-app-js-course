@@ -1,6 +1,6 @@
 # forkify app Javascript course
 
-This app will not look good on all devices, the main point of the course wasn't to focus on CSS and HTMl, but on JS
+This app will not look good on all devices, the main point of the course wasn't to focus on CSS and HTML, but on JS
 
 In this app you are able to:
 - browse various recipes by typing keywords into a search bar
